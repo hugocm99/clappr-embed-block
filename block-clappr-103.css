@@ -1,0 +1,45 @@
+/*
+Author: Hugo Carabaña
+Author URI: https://www.esc-plus.com
+Description: Bloque Clappr editor web
+Version: 1.0.3
+*/
+
+.clappr-box.clappr-default {
+    border-left: none;
+    background: rgba(139,139,150,.1);
+    padding: 22px 0 22px 22px;
+    font-size: .8125rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3.clappr-box-name {
+    color: #111;
+    font-size: 1rem;
+    margin: 0;
+    flex: 1 1 100%;
+}
+
+label.clappr-box-title-video {
+    display: block;
+    font-weight: 600;
+	margin-bottom: calc(8px);
+}
+
+p.clappr-box-text-control-video {
+    margin: 0 0 1em .5em;
+    font-size: 1em;
+    color: rgba(0,0,0,.8);
+    width: 100%;
+}
+
+.clappr-box_control{
+	margin: 1em 0 0;
+	width: 100%;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+.clappr-box_control input[type="url"] {
+    font-size: 13px;
+}
