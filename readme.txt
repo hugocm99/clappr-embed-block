@@ -1,10 +1,10 @@
 === Clappr Video Player ===
-Contributors: condacore
+Contributors: condacore, Hugo Carabaña
 Donate link: https://www.paypal.me/MariusBolik
 Tags: embed, video, player, responsive, rtmp, hls, live
 Requires at least: 3.0.1
-Tested up to: 5.2.2
-Stable tag: 1.2.1
+Tested up to: 6.0
+Stable tag: 2.0.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -22,12 +22,13 @@ The most functional und most beautiful Video Player for WordPress. Fully-Respons
 * Beautiful and modern Design
 * Customizable Colors
 * Optimized page load performance
-
+* Block for post/page without need to create shortcode
 
 = The Shortcode =
 
-In order to embed a video create a new post/page and use the following shortcode:
+In order to embed a video create a new post/page and use the Clappr block in Wordpress block editor:
 
+This block will create a block with content like this, that will show the player on your page or post:
 `[clappr media="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" poster="https://i.imgur.com/GRJ3u1j.jpg" watermark="https://i.imgur.com/If2p9w8.png" mute="yes"]`
 
 = A lot of Options =
@@ -70,10 +71,6 @@ You can use .m3u8, .mp4, .mp3 and .webm!
 
 Yes. You can use .jpg, .png and .gif!
 
-= Copyright =
-
-Copyright (c) 2018, Globo.com Player authors & CONDACORE. All rights reserved.
-
 == Screenshots ==
 
 1. Player Interface
@@ -86,6 +83,12 @@ Copyright (c) 2018, Globo.com Player authors & CONDACORE. All rights reserved.
 none
 
 == Changelog ==
+
+= 2.0 =
+*Release Date - 17th Jun 2022*
+
+* Updated files to 2022 modifications
+* Added Wordpress block
 
 = 1.1 =
 *Release Date - 6th Jan 2018*
